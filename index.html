@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicons -->
+  <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="assets/icons/apple-touch-icon.png"
+  />
+  <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="assets/icons/favicon-32x32.png"
+  />
+
+  <!-- Animate CSS CDN -->
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <title>KB | Interactive Media</title>
+</head>
+
+<body>
+<nav>
+  <a href="index.html" class="logo">
+    <img src="dein-logo.png" alt="Logo" class="logo-img" />
+  </a>
+
+  <ul class="navigation">
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <button class="burger-menu" id="burger-menu">
+    <ion-icon class="bars" name="menu-outline"></ion-icon>
+  </button>
+</nav>
+
+<section class="hero" id="about">
+  <img
+          src="ich.png"
+          alt="jane-doe"
+          loading="lazy"
+          class="hero-img"
+  />
+  <div class="bio animate__animated animate__shakeX">
+    <h2 class="bio-title">Hello I'm Klara</h2>
+    <p class="bio-text">
+      An Interactive Media student at
+      University of Applied Science Augsburg
+    </p>
+  </div>
+</section>
+
+
+
+<!-- More about -->
+<section class="more-about">
+  <h2>More About Me</h2>
+  <p>
+    With a solid background in design from my media design training, I focus on crafting engaging digital experiences. My passion lies in designing and developing for web and mobile, which I continue to explore through my Interactive Media studies at the University of Applied Sciences Augsburg.
+  </p>
+  <p>
+    During my apprenticeship as a media designer at ETS Didactic GmbH, I gained hands-on experience in both digital and print media. I worked extensively with tools like Adobe Creative Cloud, Figma, and Maya, and developed a keen eye for visual storytelling and user-focused design.
+  </p>
+  <p>
+    I'm also passionate about learning new technologies and combining creativity with technical skills. Whether I'm coding in JavaScript or Python, building interfaces, or training for my next triathlon, I bring curiosity, focus, and a love for detail to everything I do.
+  </p>
+</section>
+
+<!-- Skills section -->
+<section class="skills" id="skills">
+  <h2 class="skill-header">My Skills</h2>
+
+  <div class="skills-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img
+              src="adobe.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="figma.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="maya.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="unreal.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+    </div>
+
+    <div class="second-set animate__animated animate__pulse">
+      <img
+              src="html.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="css.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="javascript.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="java.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+      <img
+              src="python.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- Projects section -->
+<section class="projects" id="projects">
+  <h2 class="projects-title">Some of my Recent Projects</h2>
+  <div class="projects-container">
+    <div class="project-container project-card">
+      <div class="video-wrapper">
+        <iframe
+                src="https://www.youtube.com/watch?v=pUD7hYfbyUk"
+                class="project-video"
+                frameborder="0"
+                allowfullscreen
+        ></iframe>
+      </div>
+      <h3 class="project-title">Skybound Trails – 2D Platformer Game</h3>
+      <p class="project-details">
+        Pixel Adventure is a 2D pixel art platformer inspired by Celeste and Hollow Knight, combining retro visuals with modern mechanics. Built in Unreal Engine using a tilemap system and layered design, the game features precise controls, modular levels, and a clean HUD.
+
+        Key features include pixel-perfect rendering, responsive keyboard input, multiplayer mode, and rich sound and visual effects. Developed as part of my Interactive Media studies, this project reflects both my design background and my passion for web and game development.
+      </p>
+
+    </div>
+    <div class="project-container project-card">
+      <div class="gallery-container">
+        <button class="gallery-nav" id="prevBtn"><span class="arrow">&#8592;</span></button>
+        <img src="gallery/todo1.png" class="gallery-image" id="galleryImage" alt="Screenshot 1" />
+        <button class="gallery-nav" id="nextBtn"><span class="arrow">&#8594;</span></button>
+      </div>
+
+      <h3 class="project-title">ToDo Process – Task Management Tool</h3>
+      <p class="project-details">
+        ToDo Process is a web-based task management application that allows users to create tasks and organize them with subtasks for better structure. The focus lies on usability and clarity to support everyday planning. The project was developed using Python and SQLite, with a custom backend and a simple, functional frontend.
+      </p>
+    </div>
+
+
+
+    <div class="project-container project-card">
+      <div class="video-wrapper">
+        <iframe
+                src="https://www.youtube.com/watch?v=gEEzOKelxPw"
+                class="project-video"
+                frameborder="0"
+                allowfullscreen
+        ></iframe>
+      </div>
+      <h3 class="project-title">boomtschakaboom</h3>
+      <p class="project-details">
+        This experimental audiovisual project explores rhythm and structure through compositing, montage, and visual layering. The aim was to translate musical principles like pulse, repetition, and variation into visual language using Adobe After Effects and/or Premiere Pro. Inspired by the concept of the "Zeitmaschine", the piece breaks conventional timelines and reconstructs time and rhythm into a new narrative flow. The result is a video that merges chaos and logic, following both conceptual and improvisational methods. The project is part of a larger investigation into rhythm as a design principle and performative structure.
+      </p>
+
+    </div>
+    <div class="project-container project-card">
+      <div class="video-wrapper">
+        <iframe
+                src="https://www.youtube.com/watch?v=o1eAjTNUl3Y"
+                class="project-video"
+                frameborder="0"
+                allowfullscreen
+        ></iframe>
+      </div>
+      <h3 class="project-title">Coffee Love</h3>
+      <p class="project-details">
+        This was my first self-built website, created entirely with HTML, CSS, and JavaScript. The project focused on learning the fundamentals of web development while expressing a personal visual style. All illustrations featured on the site were hand-drawn by me and integrated to create a cohesive and playful design.      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact section -->
+<section class="contact" id="contact">
+  <h2>Get In Touch With Me</h2>
+  <div class="contact-form-container">
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xyylngw" method="POST">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+          />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+          ></textarea>
+        </div>
+        <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+        />
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- Social accounts - Fixed to the right -->
+<div class="socials">
+  <a href="https://www.linkedin.com/in/klara-bruckschlögl-11b63b315/" target="_blank">
+    <img src="linkedin.png" alt="LinkedIn" loading="lazy" class="socicon" />
+  </a>
+
+  <a href="mailto:klara.bruckschloegl@gmx.de">
+    <img src="mail.png" alt="Mail" loading="lazy" class="socicon small-mail" />
+  </a>
+    <!--</a>
+    <a href="#" target="_blank"
+    ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+    ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>-->
+</div>
+
+<!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"
+  ><img
+          src="pfeil.gif"
+          class="socicon up-arrow"
+          alt="scroll-up"
+  /></i>
+
+<!-- Footer section -->
+<footer>
+  <p class="copy">&copy; 2025 Klara Bruckschlögl | Alle Rechte vorbehalten</p>
+  <p class="copy">
+    Built with &#x2661; by <a>Klara</a>
+  </p>
+  <p class="copy">
+    <a href="impressum.html" class="footer-link">Impressum</a> |
+    <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+  </p>
+</footer>
+
+<!-- Website scripts -->
+<script src="js.js"></script>
+
+<!-- Ion icons scripts -->
+<script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>
