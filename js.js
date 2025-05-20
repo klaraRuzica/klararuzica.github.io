@@ -12,18 +12,18 @@ scrollUp.addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const images = [
-        "gallery/todo1.png",
-        "gallery/todo2.png",
-        "gallery/todo3.png",
-        "gallery/todo4.png",
-        "gallery/todo5.png",
-        "gallery/todo6.png",
-        "gallery/todo7.png",
-        "gallery/todo8.png",
-        "gallery/todo9.png",
-        "gallery/todo10.png",
-        "gallery/todo11.png",
-        "gallery/todo12.png",
+        "todo1.png",
+        "todo2.png",
+        "todo3.png",
+        "todo4.png",
+        "todo5.png",
+        "todo6.png",
+        "todo7.png",
+        "todo8.png",
+        "todo9.png",
+        "todo10.png",
+        "todo11.png",
+        "todo12.png",
 
     ];
 
